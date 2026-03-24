@@ -1,11 +1,13 @@
-# data (DO NOT upload)
-data_raw/
-data_processed/
-embeddings/
-papers_pdf/
-papers_parsed/
+# 忽略整个目录
+data_raw/*
+data_processed/*
+embeddings/*
+papers_pdf/*
+papers_parsed/*
 
-# system
-.DS_Store
-__pycache__/
-*.pyc
+# 但保留 .gitkeep
+!data_raw/.gitkeep
+!data_processed/.gitkeep
+!embeddings/.gitkeep
+!papers_pdf/.gitkeep
+!papers_parsed/.gitkeep
